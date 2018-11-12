@@ -3,7 +3,8 @@ A small web service to search a bunch of twitter tweets.
 
 ## Data setup.
 The 'chelsea_twitter.json' file given has dates which will not import into mongodb properly.
-Place the 'fileFix.py' file in the same directory as the 'chelsea_twitter.json' file and run it.
+Place the 'fileFix.py' file, located in the 'assets' directory, in the same directory as the
+'chelsea_twitter.json' file and run it.
 It should output a file named 'fixed.json' which has the date fields fixed and ready for import.
 
 To import the data into your mongodb instance,
