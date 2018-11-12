@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongo-cursor-pagination": "^7.1.0",
+    "mongodb": "^3.1.9"
+  },
+  "name": "devchallenge",
+  "description": "A small web service",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "yarn run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renegade84/webService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renegade84/webService/issues"
+  },
+  "homepage": "https://github.com/renegade84/webService#readme"
+}
