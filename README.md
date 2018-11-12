@@ -23,30 +23,31 @@ To run the program, run the command 'npm run start' or 'yarn run start' dependin
 I use yarn.
 
 ## Available APIs
-//route used to find singe tweets by tweet_id
-localhost:3000/tweets/tweet
+route used to find singe tweets by tweet_id:  
+localhost:3000/tweets/tweet  
 Query parameter: id
 
 
-//route used to find tweets based on user name
-localhost:3000/tweets/user
+route used to find tweets based on user name:  
+localhost:3000/tweets/user  
 Query parameter: name
 
-//route used to find tweets based on dates
-localhost:3000/tweets/dates
+route used to find tweets based on dates:  
+localhost:3000/tweets/dates  
 Query parameters: start, end
 
-//route used to find tweets based on counts
-localhost:3000/tweets/counts
+route used to find tweets based on counts:  
+localhost:3000/tweets/counts  
 Query parameter: value
 
-//route used to find tweets based on text content
-localhost:3000/tweets/text
-Query parameters: text, search
+route used to find tweets based on text content:  
+localhost:3000/tweets/text  
+Query parameters: text, search  
 Note that text is for exact match and search is for ...search
 
-localhost:3000/users
-Query parameter: name
+route used to get user information:  
+localhost:3000/users  
+Query parameter: name  
 Returns user information given the users name
 
 ## Example api calls
