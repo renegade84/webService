@@ -2,6 +2,7 @@ import _ from 'lodash';
 import Database from '../util/database.js';
 import {config} from "../util/dbConfig.js";
 
+//while implementing my own pagination feature, I stumbled across this package. I decided to use it, since there is no point in reinventing the wheel!
 const MongoPaging = require('mongo-cursor-pagination');
 var Long = require('mongodb').Long;
 
